@@ -2,9 +2,7 @@ body{
     font-family: Verdana, sans-serif;
 }
 
-nav-links{
 
-}
 
 a {
     text-decoration: none;
@@ -77,5 +75,62 @@ h2{
 
 /* Medium and Above Breakpoint*/
 @media screen and (min-width:768px) {
+
+.hidden-on-desktop{
+    visibility:hidden ;
+}
+
+h1{
+text-align: left;
+    display: inline-block;
+    float: left;
+}
+
+ul {
+    margin-left: auto;
+display: block;
+    float: right;
+}
+
+
+
+li{
+    background-color:white;
+    text-align: none;
+    display: inline;
+
+
+}
+
+img{
+
+    height: 385px;
+    width: 890px;
+    margin: 1em auto;
+}
+
+.main{
+   width: calc(66% - 1em);
+display: inline-block;
+float: left;
+}
+
+.sub-section{
+    width: calc(33% - 1em);
+float: right;
+    display: inline-block;
+    margin: 0 .5em;
+
+}
+.header-img{
+    width: 100%;
+    clear: both;
+}
+}
+
+footer{
+width: 100%;
+margin-top: 80em;
+clear: both;
 
 }
